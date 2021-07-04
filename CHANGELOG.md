@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/LJMSU/slyte/compare/v1.0.0...v1.0.1) (2021-07-04)
+
+
+### Bug Fixes
+
+* **package:** add github info ([f2f4de7](https://github.com/LJMSU/slyte/commit/f2f4de7475f2c6e45329f5a9e84ce16b26ddb103))
+
 ## 1.0.0 (2021-07-04)
 
 

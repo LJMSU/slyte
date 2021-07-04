@@ -24,7 +24,7 @@ npm install -g slyte
 
 - [`youtube-dl`](https://youtube-dl.org/)
 - [`ffmpeg`](https://www.ffmpeg.org/)
-- [`atomicparsley`]
+- `atomicparsley`
 
 ## Usage
 

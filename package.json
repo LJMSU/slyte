@@ -2,7 +2,9 @@
   "name": "slyte",
   "description": "A wrapper for youtube-dl.",
   "version": "1.0.0",
-  "bin": "build/bin/index.js",
+  "bin": {
+    "slyte": "build/bin/index.js"
+  },
   "files": [
     "./build/**/*"
   ],
@@ -36,5 +38,13 @@
   "dependencies": {
     "commander": "^8.0.0",
     "execa": "^5.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJMSU/slyte.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LJMSU/slyte/issues"
+  },
+  "homepage": "https://github.com/LJMSU/slyte#readme"
 }

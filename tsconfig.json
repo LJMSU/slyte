@@ -1,0 +1,42 @@
+{
+  "include": ["src/"],
+
+  "compilerOptions": {
+    // Project Options
+    "allowJs": true,
+    "checkJs": true,
+    "composite": true,
+    "declaration": true,
+    "downlevelIteration": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "lib": ["ES2020"],
+    "module": "CommonJS",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "target": "ES2015",
+    "tsBuildInfoFile": ".tsbuildinfo",
+
+    // Strict Checks
+    "strict": true,
+
+    // Module Resolution
+    "esModuleInterop": true,
+
+    // Linter Checks
+    "noPropertyAccessFromIndexSignature": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    // Advanced
+    "declarationDir": "./build",
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "remove",
+    "noEmitOnError": true,
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+
+    // Command Line
+    "preserveWatchOutput": true
+  }
+}

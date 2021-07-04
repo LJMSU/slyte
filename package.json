@@ -1,0 +1,40 @@
+{
+  "name": "slyte",
+  "description": "A wrapper for youtube-dl.",
+  "version": "1.0.0",
+  "bin": "build/bin/index.js",
+  "files": [
+    "./build/**/*"
+  ],
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "scripts": {
+    "format": "prettier -w .",
+    "release": "standard-version",
+    "prepare": "npx husky install .githooks"
+  },
+  "keywords": [
+    "slyte",
+    "youtube",
+    "download",
+    "youtube-dl",
+    "wrapper",
+    "cli"
+  ],
+  "author": "LJMSU",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@types/node": "^16.0.0",
+    "husky": "^7.0.0",
+    "prettier": "^2.3.1",
+    "standard-version": "^9.3.0",
+    "typescript": "^4.3.4"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.0.0",
+    "execa": "^5.1.1"
+  }
+}

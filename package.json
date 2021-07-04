@@ -1,7 +1,7 @@
 {
   "name": "slyte",
   "description": "A wrapper for youtube-dl.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": {
     "slyte": "build/bin/index.js"
   },

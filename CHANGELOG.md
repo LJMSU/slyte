@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/LJMSU/slyte/compare/v1.0.1...v1.0.2) (2021-07-04)
+
+
+### Bug Fixes
+
+* **package:** update package-lock.json version ([66a4d30](https://github.com/LJMSU/slyte/commit/66a4d309b91e5f7080cfce344dd738c6e13d0b39))
+
 ### [1.0.1](https://github.com/LJMSU/slyte/compare/v1.0.0...v1.0.1) (2021-07-04)
 
 

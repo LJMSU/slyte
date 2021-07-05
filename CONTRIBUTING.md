@@ -6,7 +6,7 @@ PRs are accepted. For large changes, please submit an issue first.
 
 ```sh
 npm install
-tsc
+npx tsc
 npm run format
 ```
 

@@ -13,7 +13,11 @@ const { version } = JSON.parse(
 const program = new Command('slyte')
   .version(version, '-v, --version')
   .allowExcessArguments(false)
-  .allowUnknownOption(false);
+  .allowUnknownOption(false)
+  .action(() => {
+    console.error('error: no command specified. append --help for commands.');
+    process.exitCode = 2;
+  });
 
 const commands: Slyte.Command[] = Object.values(slyte.commands);
 
